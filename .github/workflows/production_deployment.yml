@@ -20,5 +20,5 @@ jobs:
           env: production
           kube-config-base64-data: ${{ secrets.KUBE_CONFIG_BASE64_DATA }}
         env:
-          WERF_SET_ENV_URL: "envUrl=http://habrapp.example.com"
+          WERF_SET_ENV_URL: "envUrl=http://habrapp.89.110.96.117.sslip.io"
 
