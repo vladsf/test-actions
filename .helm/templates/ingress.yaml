@@ -6,7 +6,7 @@ metadata:
   name: habr-app
 spec:
   rules:
-  - host: habrapp.zhbert.ru
+  - host: habrapp.89.110.96.117.sslip.io
     http:
       paths:
       - path: /
@@ -25,7 +25,7 @@ spec:
               number: 8080
   tls:
     - hosts:
-        - habrapp.zhbert.ru
+        - habrapp.89.110.96.117.sslip.io
       secretName: habr-app-tls
 ---
 apiVersion: cert-manager.io/v1
@@ -39,4 +39,4 @@ spec:
     kind: ClusterIssuer
     name: letsencrypt
   dnsNames:
-  - habrapp.zhbert.ru
+  - habrapp.89.110.96.117.sslip.io
