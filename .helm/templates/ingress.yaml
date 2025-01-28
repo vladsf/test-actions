@@ -32,7 +32,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: habr-app
-  namespace: habr-app
+  namespace: habr-app-production
 spec:
   secretName: habr-app-tls
   issuerRef:
