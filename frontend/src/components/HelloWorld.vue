@@ -18,7 +18,7 @@
       </div>
     </form>
     <div class="container mt-5">
-      <h2 class="text-center">Messages from users</h2>
+      <h2 class="text-center">Messages from Users</h2>
       <button v-on:click="get" type="button" class="btn btn-outline-success mb-2">Проверить записи</button>
 
       <div class="alert alert-warning" role="alert" v-if="error">
