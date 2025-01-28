@@ -30,7 +30,7 @@ spec:
   - metadata:
       name: mysql-data
     spec:
-      storageClassName: localpath-system
+      storageClassName: local-path
       accessModes: ["ReadWriteOnce"]
       resources:
         requests:
