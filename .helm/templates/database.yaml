@@ -39,7 +39,7 @@ spec:
 apiVersion: deckhouse.io/v1alpha1
 kind: LocalPathProvisioner
 metadata:
-  name: localpath-system
+  name: local-path
 spec:
   nodeGroups:
   - master
